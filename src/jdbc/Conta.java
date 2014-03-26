@@ -3,6 +3,15 @@ package jdbc;
 public class Conta {
 
 	private int numero;
+	private String cliente;
+	private double saldo;
+
+	public Conta(int numero, String cliente, double saldo) {
+		this.numero = numero;
+		this.cliente= cliente;
+		this.saldo = saldo;
+	}
+
 	public int getNumero() {
 		return numero;
 	}
@@ -24,15 +33,6 @@ public class Conta {
 	}
 
 	public void setSaldo(double saldo) {
-		this.saldo = saldo;
-	}
-
-	private String cliente;
-	private double saldo;
-
-	public Conta(int numero, String cliente, double saldo) {
-		this.numero = numero;
-		this.cliente= cliente;
 		this.saldo = saldo;
 	}
 	

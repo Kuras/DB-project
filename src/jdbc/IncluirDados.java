@@ -11,7 +11,8 @@ public class IncluirDados {
 	public static void main(String[] args) throws SQLException {
 		String url = "jdbc:mysql://localhost:3306/hibernate";
 		// String sql =
-		// "insert into pessoa values(3,'Caio','M','caio@gmial.com')";
+		// "insert into pessoa 
+//			values(3,'Caio','M','caio@gmial.com')";
 		//
 		// try (Connection con = DriverManager.getConnection(url, "baraka",
 		// "mypass");

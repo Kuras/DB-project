@@ -23,7 +23,8 @@ public class AcessoBanco {
 			ResultSet rs = stm.executeQuery()
 					){
 
-			System.err.println("Toda elemento de banco de dado hibernete");
+			System.out.println("Toda elemento de banco de dado hibernete");
+			System.out.println("HIBERNATE.pessoa");
 			while (rs.next()) {
 				String nome = rs.getString("nome");
 				String codigo = rs.getString("codigo");

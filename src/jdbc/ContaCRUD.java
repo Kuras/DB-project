@@ -1,11 +1,9 @@
 package jdbc;
 
-import java.awt.List;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.sql.Statement;
 import java.util.ArrayList;
 import java.sql.Connection;
 
@@ -24,7 +22,7 @@ public class ContaCRUD {
 				alterar(con, origem);
 				
 //				throw new Exception(); eqwiwalent ->
-				int x = 1 / 0;
+//				int x = 1 / 0;
 				
 				/* DEPOSITO */
 				destino.setSaldo(destino.getSaldo() + valor);
