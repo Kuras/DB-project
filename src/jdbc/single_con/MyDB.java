@@ -6,6 +6,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
+import java.util.List;
 
 import jdbc.Conta;
 
@@ -28,11 +29,11 @@ public class MyDB{
 				e.printStackTrace();
 			}
 		}
-		
 		return con;
 	}
 
-	public static ArrayList<Conta> fetchAll(String table) throws SQLException {
+	// funkcjonalnoœæ nietestowalna!!!
+	public static List<Conta> fetchAll(String table) throws SQLException {
 		ArrayList<Conta> lista = new ArrayList<>();
 		String sql = "select numero, cliente, saldo from ";
 		sql = sql + table;

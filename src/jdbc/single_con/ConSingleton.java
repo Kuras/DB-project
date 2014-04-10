@@ -20,7 +20,6 @@ public class ConSingleton {
 				e.printStackTrace();
 			}
 		}
-		
 		return con;
 	}
 	
