@@ -13,12 +13,14 @@ import org.junit.Test;
 public class MockDBTest {
 
 	@Test
-	public void testMyDB() {	
+	public void testMyDB() {
+		
 		String password = "mypass";
 		String user = "baraka";
 		String url = "jdbc:mysql://localhost:3306/hibernate";
 
 		DBInterface db = new MockDB(url,user,password);
+		
 		assertFalse(db.isConnected());
 		ArrayList<Conta> contas;
 		try {

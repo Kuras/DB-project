@@ -114,6 +114,6 @@ public class ContaCRUD {
 				System.out.println(conta);
 			}
 			
-		}
+		}// close connection
 	}
 }
